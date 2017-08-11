@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :welcome
+  resources :users
   resources :profile
   resources :inventory
   resources :project
